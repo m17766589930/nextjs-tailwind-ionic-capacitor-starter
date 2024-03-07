@@ -31,15 +31,12 @@ const Tabs = () => {
       <IonTabBar slot="bottom">
         <IonTabButton tab="tab1" href="/feed">
           <IonIcon icon={flash} />
-          <IonLabel>Feed</IonLabel>
         </IonTabButton>
         <IonTabButton tab="tab2" href="/lists">
           <IonIcon icon={list} />
-          <IonLabel>Lists</IonLabel>
         </IonTabButton>
         <IonTabButton tab="tab3" href="/settings">
           <IonIcon icon={cog} />
-          <IonLabel>Settings</IonLabel>
         </IonTabButton>
       </IonTabBar>
     </IonTabs>
